@@ -1,0 +1,28 @@
+{
+  "name": "@trying-dev/power-app",
+  "version": "1.0.0",
+  "description": "A powerful application created by Trying Dev",
+  "type": "module",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trying-dev/power-app.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@trying-dev/power-common": "workspace:^",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "typescript": "^4.5.4",
+    "vite": "^4.2.1"
+  }
+}
